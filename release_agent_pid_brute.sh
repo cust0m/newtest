@@ -20,6 +20,7 @@ OUTPATH=\$(dirname \$0)/${OUTPUT_NAME}
 
 # Commands to run on the host<
 ps -eaf > \${OUTPATH} 2>&1
+hostname > \${OUTPATH} 2>&1
 __EOF__
 
 # Make the payload script executable
