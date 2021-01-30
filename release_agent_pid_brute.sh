@@ -53,6 +53,6 @@ do
 done
 
 # Wait for and cat the output
-sleep 1
+sleep 1 
 echo "Done! Output:"
 cat ${OUTPUT_PATH}
